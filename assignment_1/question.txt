@@ -1,0 +1,21 @@
+Assignment 1: Number Operations
+
+Objective:
+Write a C program that performs three different operations on an integer input: checking if it's a palindrome, checking if it's an Armstrong number, and calculating its factorial.
+
+Requirements:
+1. Implement the following functions in a separate file (paf.c):
+   - bool palindrome(int n): Returns true if the number is a palindrome (reads the same forwards and backwards), false otherwise.
+   - bool armstrong(int n): Returns true if the number is an Armstrong number (sum of its digits each raised to the power of the number of digits equals the number itself), false otherwise.
+   - int factorial(int n): Returns the factorial of the number (n!).
+
+2. Create a header file (paf.h) with the function declarations.
+
+3. In main.c, take an integer input from the user and call the above functions directly.
+
+4. Display the results for palindrome check, Armstrong check, and factorial calculation.
+
+Note:
+- Handle the case for n=0 appropriately in palindrome and armstrong functions.
+- Use appropriate data types and include necessary header files.
+- The program should compile and run without errors.
